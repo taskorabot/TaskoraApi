@@ -1,9 +1,9 @@
-
+# TaskoraApi
 
 ---
 
 ```markdown
-# taskoraapi Package
+# TaskoraApi Package
 
 A modular Python library offering clients for chatbot interactions, Instagram APIs, quiz services, and reCAPTCHA v3 solving.
 
@@ -20,7 +20,6 @@ A modular Python library offering clients for chatbot interactions, Instagram AP
 pip install TaskoraApi
 ```
 
-> ⚠️ **Note**: Replace `chatBot` with the actual name on PyPI once published.
 
 ## 🧰 Modules & Usage
 
