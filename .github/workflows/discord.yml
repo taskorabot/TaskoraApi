@@ -15,5 +15,5 @@ jobs:
         run: |
           curl -H "Content-Type: application/json" \
             -X POST \
-            -d "{\"content\": \"🚀 New push by **$COMMIT_AUTHOR**: $COMMIT_MESSAGE\n🔗 $COMMIT_URL\"}" \
-            $DISCORD_WEBHOOK
+            -d '{"content": "🚀 New push by **'"$COMMIT_AUTHOR"'**: '"$COMMIT_MESSAGE"'\n🔗 '"$COMMIT_URL"'"}' \
+            "$DISCORD_WEBHOOK"
